@@ -27,7 +27,7 @@ In my spare time I like to practice Kata on Codewars.com
 
 ## Code Example
 
-Kata __"String ends with?"__ from codewars.com
+Kata __"String ends with?"__ from Codewars.com
 
 _DESCRIPTION:_
 
