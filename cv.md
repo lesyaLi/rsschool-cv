@@ -14,7 +14,7 @@ For the last 10 years I have been working in the field of procurement and logist
 
 Now I'm studying HTML, CSS, JS and dream of becoming a frontend developer one day.
 
-In my spare time I like to practice Kata on Codewars.com
+In my spare time I like to practice Kata on codewars.com
 
 ## Skills
 * HTML
@@ -27,7 +27,7 @@ In my spare time I like to practice Kata on Codewars.com
 
 ## Code Example
 
-Kata __"String ends with?"__ from Codewars.com
+Kata __"String ends with?"__ from codewars.com
 
 _DESCRIPTION:_
 
