@@ -1,1 +1,125 @@
-.
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons8-резюме-cute-color-96.ico">
+    <title>Alesya Litvinova</title>
+  </head>
+
+    <body>
+        <div class="wrapper">
+            
+            <header class="header">
+
+                <nav class="nav">
+                    <a class="link__header-footer" href="#Contacts">Contacts</a>
+                    <a class="link__header-footer" href="#About Me">About me</a>
+                    <a class="link__header-footer" href="#Skills">Skills</a>
+                    <a class="link__header-footer" href="#Code Example">Code Example</a>
+                    <a class="link__header-footer" href="#Education">Education</a>
+                    <a class="link__header-footer" href="#Languages">Languages</a>
+                    <a class="link__header-footer" href="#Experience">Experience</a>
+                </nav>
+                
+                <div class="information">
+                    <h1>Alesya Litvinova</h1>
+                    <h2>Junior Frontend Developer</h2> 
+                </div> <!-- //information -->
+            </header>
+
+            <div class="two-columns">
+            <aside class="aside">
+                <span class="photo"><img src="785.jpg" alt="profile-photo" height="300px">
+                </span><!-- //photo -->
+                <h3 id="Contacts">Contacts</h3>
+                <ul class="contacts">
+                    <li>Location: Krasnodar, Russia</li>
+                    <li>Email: <a  href="mailto:lit.alesya@gmail.com">lit.alesya@gmail.com</a></li>
+                    <li>GitHub: <a  href="https://github.com/lesyaLi">lesyaLi</a></li>
+                    <li>Discord: Алеся (lesyaLi)#5362</li>
+                </ul>
+            </aside> 
+
+            <main class="main">
+                <div class="main__subject">
+                    <h3 id="About Me"><u>About Me</u></h3>
+                        <p>For the last 10 years I have been working in the field of procurement and logistics.</p>
+                        <p>Now I'm studying HTML, CSS, JS and dream of becoming a frontend developer one day.</p>
+                        <p>In my spare time I like to practice Kata on codewars.com</p>
+                </div> <!-- //main__subject_About Me -->
+
+                <div class="main__subject">
+                    <h3 id="Skills"><u>Skills</u></h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript (Basic)</li>
+                            <li>Git</li>
+                        </ul>
+                </div> <!-- //main__subject_Skills -->
+
+                <div class="main__subject">
+                    <h3 id="Code Example"><u>Code Example</u></h3>
+                        <ul>
+                            <li>Kata <b>"String ends with?" </b> from codewars.com </li>
+                        </ul>
+                        
+                        <div class="description"><b><i>DESCRIPTION:</i></b></div>
+                        <p><i>Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).</i></p>
+                        <pre>
+                            <code>function solution(str, ending) {
+                            let s = str;
+                            let e = ending;
+                            let result = s.endsWith(e);
+                            return result ;
+                            }
+                            </code>
+                        </pre>
+                </div> <!-- //main__subject_Code Example -->
+
+                <div class="main__subject">
+                    <h3 id="Education"><u>Education (Courses)</u></h3>
+                        <ul>
+                            <li><a href="https://www.youtube.com/c/BrainsCloud?app=desktop">brainscloud</a></li>
+                            <li><a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
+                            <li><a href="https://www.codewars.com/">codewars.com</a></li>
+                            <li><a href="https://code-basics.com/ru/languages/html">code-basics-HTML</a></li>
+                            <li><a href="https://code-basics.com/ru/languages/css">code-basics-CSS</a></li>
+                            <li><a href="https://code-basics.com/ru/languages/javascript">code-basics-JS</a></li>
+                        </ul>
+                </div> <!-- //main__subject_Education (Courses) -->  
+
+                <div class="main__subject">
+                    <h3 id="Languages"><u>Languages</u></h3>
+                        <ul>
+                            <li>Russian - native speaker</li>
+                            <li>English - A2</li>                            
+                        </ul>
+                </div> <!-- //main__subject_Languages -->
+
+                <div class="main__subject">
+                    <h3 id="Experience"><u>Experience</u></h3>
+                    <ul> 
+                        <li> <a href="https://lesyali.github.io/rsschool-cv/cv">CV</a></li>
+                    </ul>
+                       
+                </div> <!-- //main__subject_Experience -->
+            </main>
+         </div><!-- //two-columns -->
+              
+            <footer class="footer">
+                <div class="footer__logo">
+                   <a class="link__header-footer" href="https://rs.school/js/"> <img src="rs_school_js.svg" alt="logo" width="100" height="100"> </a>
+                </div>
+                <div class="year">2022</div>
+                <div class="link"><a class="link__header-footer" href="https://github.com/lesyaLi">lesyaLi</a></div>
+            </footer>
+        </div> <!-- //wrapper -->
+    </body>
+</html>
